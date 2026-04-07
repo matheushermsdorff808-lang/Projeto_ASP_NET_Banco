@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj": {}
+    "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\Projeto_ASP_NET_Banco\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj": {
+    "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\Projeto_ASP_NET_Banco\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj",
+        "projectUniqueName": "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\Projeto_ASP_NET_Banco\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj",
         "projectName": "PROJETO_BANCO DE DADOS",
-        "projectPath": "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj",
+        "projectPath": "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\Projeto_ASP_NET_Banco\\PROJETO_BANCO DE DADOS\\PROJETO_BANCO DE DADOS.csproj",
         "packagesPath": "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\PROJETO_BANCO DE DADOS\\obj\\",
+        "outputPath": "C:\\Users\\MatheusRibeiroHermsd.AzureAD\\Desktop\\primeiro_app2\\Projeto_ASP_NET_Banco\\PROJETO_BANCO DE DADOS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -49,6 +49,16 @@
       "frameworks": {
         "net10.0": {
           "targetAlias": "net10.0",
+          "dependencies": {
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[10.0.2, )"
+            },
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[9.6.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

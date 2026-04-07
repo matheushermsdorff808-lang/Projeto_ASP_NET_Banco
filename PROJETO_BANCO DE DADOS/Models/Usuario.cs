@@ -5,7 +5,7 @@ namespace PROJETO_BANCO_DE_DADOS.Models
     public class Usuario
     {
        [Display(Name = "Codigo")]
-       public int idUsu { get; set; }
+       public int ? idUsu { get; set; }
         [Display(Name = "Nome completo")]
         [Required(ErrorMessage ="O campo nome é obrigatorio")]
         public string nomeUsu { get; set; }
@@ -15,5 +15,6 @@ namespace PROJETO_BANCO_DE_DADOS.Models
         [Display(Name = "Data de Nascimento")]
         [Required(ErrorMessage = "O campo Data de Nascimento é obrigatorio")]
         public DateTime Datanasc { get; set; }
+       
     }
 }
